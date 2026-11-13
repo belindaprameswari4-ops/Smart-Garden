@@ -1,0 +1,436 @@
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f7ef">
+  <meta name="description" content="Smart Plant Watering System — pemantauan tanaman dan penyiraman pintar.">
+  <title>Smart Plant Watering System</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/font/lucide.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script type="module" src="/app.js"></script>
+
+  <!-- ANIMASI FOTO PETANI -->
+  <style>
+  photo {
+  display: block;
+  width: 450px;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  transform-origin: 50% 90%;
+  animation: gardenerPhotoSway 3s ease-in-out infinite;
+  will-change: transform;
+  position: relative;
+  z-index: 2;
+}
+
+
+    @keyframes gardenerPhotoSway {
+      0%, 100% {
+        transform: rotate(-2deg) translateY(0);
+      }
+
+      50% {
+        transform: rotate(2deg) translateY(-5px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .gardener-photo {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- WELCOME SCREEN -->
+<section id="welcomeScreen" class="mountain-welcome">
+  <div class="mountain-overlay"></div>
+
+  <div class="mountain-content">
+    <div class="mountain-logo">🌱</div>
+
+    <p class="mountain-label">WELCOME TO YOUR SMART GARDEN</p>
+
+    <h1>
+      Smart Plant
+      <span>Watering System</span>
+    </h1>
+
+    <div class="mountain-divider"></div>
+
+    <p class="mountain-tagline">
+      Grow Smarter. Live Greener.
+    </p>
+
+    <div class="mountain-loading">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <p class="mountain-footer">
+    SMART TECHNOLOGY · HEALTHIER PLANTS
+  </p>
+</section>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+<main id="homePage" class="page home-page">
+  <nav class="topbar glass">
+    <a class="brand" href="#">
+      <span class="brand-mark">✿</span>
+      <span>smart<span class="brand-light">plant</span><small>WATERING SYSTEM</small></span>
+    </a>
+
+    <div class="top-actions">
+      <span class="status-pill"><i class="status-leaf"></i> Smart & sustainable</span>
+      <button class="btn btn-ghost" id="homeLogin">Masuk</button>
+      <button class="btn btn-primary" id="homeRegister">Mulai sekarang <span>↗</span></button>
+    </div>
+  </nav>
+
+  <section class="hero-wrap">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="eyebrow-dot"></span> SMART GARDENING, MADE SIMPLE</div>
+
+      <h1>Tanaman sehat,<br><em>tumbuh lebih cerdas.</em></h1>
+
+      <p class="hero-desc">
+        Pantau kondisi tanah, suhu, dan kelembapan secara real-time.
+        Kelola penyiraman tanamanmu dengan lebih mudah dari satu dashboard.
+      </p>
+
+      <div class="hero-buttons">
+        <button id="heroStart" class="btn btn-primary btn-large">
+          Mulai merawat tanaman <span>↗</span>
+        </button>
+        <button id="heroLogin" class="btn btn-soft btn-large">
+          Saya sudah punya akun
+        </button>
+      </div>
+
+      <div class="hero-proof">
+        <div class="proof-avatars">
+          <span>🌱</span>
+          <span>🌿</span>
+          <span>🪴</span>
+        </div>
+        <div>
+          <strong>Perawatan lebih praktis</strong>
+          <small>Data sensor terpantau dalam satu tempat</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="art-orbit orbit-one"></div>
+      <div class="art-orbit orbit-two"></div>
+      <div class="sun-glow"></div>
+
+      <div class="floating-chip chip-top">
+        <span class="chip-icon">☀</span>
+        <span>
+          <strong>Lingkungan terpantau</strong>
+          <small>Sensor aktif setiap saat</small>
+        </span>
+        <i class="chip-check">✓</i>
+      </div>
+
+      <div class="garden-scene">
+        <div class="hill hill-back"></div>
+        <div class="hill hill-front"></div>
+
+        <!-- FOTO PETANI PENGGANTI ILUSTRASI SVG -->
+        <img
+          src="/images/foto-saya.png"
+          alt="Karakter Smart Plant"
+          class="gardener gardener-photo"
+        >
+
+        <div class="floating-chip chip-bottom">
+          <span class="moisture-ring">72%</span>
+          <span>
+            <strong>Kelembapan tanah</strong>
+            <small>Contoh indikator sensor</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-caption">
+        <span class="caption-line"></span>
+        GROW WITH CARE. GROW WITH SMART PLANT.
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-row">
+    <article class="feature glass">
+      <span class="feature-icon green">⌁</span>
+      <div>
+        <strong>Monitoring real-time</strong>
+        <p>Lihat data sensor dari perangkatmu.</p>
+      </div>
+    </article>
+
+    <article class="feature glass">
+      <span class="feature-icon blue">◉</span>
+      <div>
+        <strong>Kontrol pompa mudah</strong>
+        <p>Pilih mode otomatis atau manual.</p>
+      </div>
+    </article>
+
+    <article class="feature glass">
+      <span class="feature-icon amber">⌁</span>
+      <div>
+        <strong>Grafik sensor langsung</strong>
+        <p>Amati perubahan kondisi tanaman secara berkala.</p>
+      </div>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2026 Smart Plant Watering System</span>
+    <span>Made for healthier plants <b>✿</b></span>
+  </footer>
+</main>
+
+<main id="authPage" class="page auth-page" hidden>
+  <div class="auth-layout">
+    <div class="auth-side">
+      <a class="brand" href="#" id="backHome">
+        <span class="brand-mark">✿</span>
+        <span>smart<span class="brand-light">plant</span><small>WATERING SYSTEM</small></span>
+      </a>
+
+      <div class="auth-illustration">
+        <span class="big-plant">🪴</span>
+        <span class="sparkle sparkle-a">✦</span>
+        <span class="sparkle sparkle-b">✧</span>
+      </div>
+
+      <h2>Rawat dengan perhatian.<br><em>Pantau dengan cerdas.</em></h2>
+      <p>Semua kondisi tanamanmu dalam satu ruang yang nyaman dan mudah dipahami.</p>
+    </div>
+
+    <section class="auth-card glass">
+      <div class="auth-card-top">
+        <span class="mini-logo">✿</span>
+        <span class="tiny-label">SMART GARDENING</span>
+      </div>
+
+      <h1 id="authTitle">Selamat Datang</h1>
+      <p id="authSubtitle">Masuk untuk memantau tanaman dan penyiraman.</p>
+
+      <form id="authForm">
+        <div id="nameGroup" class="field-group" hidden>
+          <label for="fullName">Nama lengkap</label>
+          <input id="fullName" type="text" autocomplete="name" placeholder="Nama kamu">
+        </div>
+
+        <div class="field-group">
+          <label for="email">Alamat email</label>
+          <input id="email" type="email" autocomplete="email" placeholder="nama@email.com" required>
+        </div>
+
+        <div class="field-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" autocomplete="current-password" placeholder="Minimal 6 karakter" minlength="6" required>
+        </div>
+
+        <button id="authSubmit" class="btn btn-primary btn-wide" type="submit">MASUK</button>
+        <p id="authMessage" class="form-message" aria-live="polite"></p>
+      </form>
+
+      <div class="divider-text"><span></span>atau lanjutkan dengan<span></span></div>
+
+      <button id="googleLogin" class="btn btn-google btn-wide" type="button">
+        <span class="google-g">G</span>
+        Lanjutkan dengan Google
+      </button>
+
+      <p id="authSwitch" class="auth-switch">
+        Belum punya akun?
+        <button type="button" id="switchRegister">Daftar sekarang</button>
+      </p>
+
+      <p class="privacy-note">Dengan melanjutkan, kamu menyetujui penggunaan layanan Smart Plant.</p>
+    </section>
+  </div>
+</main>
+
+<main id="dashboardPage" class="page dashboard-page" hidden>
+  <header class="dash-header glass">
+    <a class="brand" href="#">
+      <span class="brand-mark">✿</span>
+      <span>smart<span class="brand-light">plant</span><small>WATERING SYSTEM</small></span>
+    </a>
+
+    <div class="dash-user">
+      <span class="avatar">🌿</span>
+      <div>
+        <small>Selamat datang,</small>
+        <strong id="userName">Gardener</strong>
+      </div>
+      <button id="logoutButton" class="btn btn-ghost btn-small">Keluar ↗</button>
+    </div>
+  </header>
+
+  <div class="dashboard-content">
+    <section class="dashboard-welcome">
+      <div>
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR PLANT SPACE</div>
+        <h1>Hai, <span id="welcomeName">Gardener</span>! <span class="wave">👋</span></h1>
+        <p>Tanamanmu tumbuh lebih baik saat kamu memahaminya.</p>
+      </div>
+
+      <div class="weather-bubble glass">
+        <span class="weather-emoji">🌤️</span>
+        <div>
+          <small>Smart garden</small>
+          <strong>Rawat hari ini</strong>
+        </div>
+      </div>
+    </section>
+
+    <div class="connection-line">
+      <span class="dot offline" id="connectionDot"></span>
+      <span id="connection">Menghubungkan ke Blynk...</span>
+      <span class="connection-separator">•</span>
+      <span>Update <b id="lastUpdate">--:--</b></span>
+    </div>
+
+    <section class="sensor-grid" aria-label="Data sensor">
+      <article class="sensor-card glass sensor-soil">
+        <div class="sensor-head">
+          <span class="sensor-icon">🌱</span>
+          <span class="sensor-label">Tanah</span>
+          <span class="sensor-trend">LIVE</span>
+        </div>
+        <p>Kelembapan tanah</p>
+        <div class="sensor-value"><strong id="soil">--</strong><span>%</span></div>
+        <div class="meter"><span id="soilMeter"></span></div>
+        <small>Persentase kelembapan media tanam</small>
+      </article>
+
+      <article class="sensor-card glass sensor-humidity">
+        <div class="sensor-head">
+          <span class="sensor-icon">💧</span>
+          <span class="sensor-label">Udara</span>
+          <span class="sensor-trend">LIVE</span>
+        </div>
+        <p>Kelembapan udara</p>
+        <div class="sensor-value"><strong id="humidity">--</strong><span>%</span></div>
+        <div class="meter"><span id="humidityMeter"></span></div>
+        <small>Kadar kelembapan udara sekitar</small>
+      </article>
+
+      <article class="sensor-card glass sensor-temp">
+        <div class="sensor-head">
+          <span class="sensor-icon">☀️</span>
+          <span class="sensor-label">Suhu</span>
+          <span class="sensor-trend">LIVE</span>
+        </div>
+        <p>Suhu lingkungan</p>
+        <div class="sensor-value"><strong id="temperature">--</strong><span>°C</span></div>
+        <div class="temp-status"><span class="pulse-dot"></span> Sensor diperbarui berkala</div>
+        <small>Suhu dari sensor perangkat</small>
+      </article>
+    </section>
+
+    <section class="dashboard-main-grid">
+      <article class="panel glass chart-panel" id="monitoring">
+        <div class="panel-heading">
+          <div>
+            <span class="panel-kicker">ANALISIS SENSOR</span>
+            <h2>Monitoring tanaman</h2>
+            <p>Perubahan suhu dan kelembapan dari waktu ke waktu.</p>
+          </div>
+          <span class="live-badge"><i></i> Live data</span>
+        </div>
+
+        <div class="chart-wrap">
+          <canvas id="sensorChart" aria-label="Grafik sensor suhu, kelembapan tanah dan udara"></canvas>
+        </div>
+
+        <div class="chart-footnote">
+          <span class="chart-note-dot"></span>
+          Grafik menampilkan data yang diterima selama dashboard terbuka.
+        </div>
+      </article>
+
+      <article class="panel glass control-panel" id="controls">
+        <div class="panel-heading">
+          <div>
+            <span class="panel-kicker">PENGATURAN PERANGKAT</span>
+            <h2>Kontrol penyiraman</h2>
+            <p>Atur cara kerja pompa sesuai kebutuhan.</p>
+          </div>
+          <span class="control-plant">🪴</span>
+        </div>
+
+        <label class="select-label" for="mode">Mode penyiraman</label>
+        <select id="mode" class="mode-select">
+          <option value="1">Automatic — Otomatis</option>
+          <option value="0">Manual — Kendali sendiri</option>
+        </select>
+
+        <div class="pump-status-card">
+          <div class="pump-status-icon">💦</div>
+          <div class="pump-status-copy">
+            <small>Status pompa</small>
+            <strong id="pumpStatus">OFF</strong>
+            <span id="pumpNote">Menunggu data perangkat</span>
+          </div>
+          <span class="pump-state-light"></span>
+        </div>
+
+        <div class="pump-buttons">
+          <button id="pumpOn" class="btn btn-primary pump-button" type="button">▶ Nyalakan pompa</button>
+          <button id="pumpOff" class="btn btn-outline pump-button" type="button">Ⅱ Matikan pompa</button>
+        </div>
+
+        <p id="controlMessage" class="control-message">Menunggu status perangkat...</p>
+
+        <div class="auto-note">
+          <span>✦</span>
+          <p><strong>Mode otomatis</strong><br>Pompa dikendalikan oleh logika sensor pada ESP32.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Bagian rekap/riwayat penyiraman telah dihapus. -->
+
+    <section class="care-banner glass">
+      <div class="care-illustration">🌿</div>
+      <div>
+        <span class="panel-kicker">LITTLE REMINDER</span>
+        <h3>Setiap tanaman punya kebutuhannya sendiri.</h3>
+        <p>Gunakan data sensor sebagai panduan untuk menjaga tanaman tetap sehat.</p>
+      </div>
+      <span class="care-sparkle">✦</span>
+    </section>
+
+    <footer class="dash-footer">
+      <span>© 2026 Smart Plant Watering System</span>
+      <span>Grown with care <b>✿</b></span>
+    </footer>
+  </div>
+</main>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
