@@ -1,0 +1,662 @@
+[
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324602160_oqpruo",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:30:02.160Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.4
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324664868_4jick9",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:31:04.868Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.8
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324727871_lwzdal",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:32:07.871Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324788588_dg4885",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:33:08.588Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324857659_4tpmwe",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:34:17.659Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324917668_a01lbz",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:35:17.668Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794324980594_msys6o",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:36:20.594Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325097646_xqrd22",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:38:17.645Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325157669_e2pki7",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:39:17.669Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325217826_pp3ywo",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:40:17.826Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325337658_2z50d4",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:42:17.658Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325397669_o069e7",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:43:17.669Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325443718_wrlubi",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:44:03.718Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325448743_isfvgj",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:44:08.743Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325509580_rhhn3p",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:45:09.580Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325558833_hva4qx",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:45:58.833Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325559626_pyg7x0",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:45:59.626Z",
+    "sensors": {
+      "soil": 0,
+      "humidity": 46,
+      "temperature": 35.9
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325599017_c9rh91",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:46:39.017Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325884413_870pel",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:51:24.413Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325914877_1wcmsa",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:51:54.877Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325919363_5f4a82",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "pump_on",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:51:59.363Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325919364_ekvkhj",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:51:59.364Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325924893_170u58",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:04.893Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325934600_n3ijlw",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:14.600Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325939339_c7g9jz",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:19.339Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325945316_q3tkf7",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:25.316Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325949272_leah8z",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:29.272Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325954672_og44eb",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:34.672Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325959715_fqh8b3",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:39.715Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325965199_mah9h9",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "pump_off",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:45.199Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325965200_237dbt",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:45.200Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325969997_nfjvoq",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:49.997Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325974721_7wnnlq",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:52:54.721Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325980295_p8mee7",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:00.295Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325984268_if3bv9",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:04.268Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325989672_485en0",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:09.672Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325995392_8g4kvk",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:15.392Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794325999688_212rgb",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:19.688Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326004657_awxe1w",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:24.657Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326009707_9jky0u",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:29.707Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326014683_kxwk4h",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:34.683Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326019670_speeyz",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:39.670Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326025222_5bnqng",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:45.222Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326030353_emjnro",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:50.353Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326036123_6shdny",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:56.123Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326039584_eqepcm",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:53:59.584Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326045881_nrojrh",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:54:05.881Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326118287_ilqef7",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:55:18.287Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326184555_g5bqtd",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:56:24.555Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326298339_rs76gj",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:58:18.339Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326358373_npih89",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T15:59:18.373Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326477545_ru0xmd",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T16:01:17.545Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326537555_vvompq",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T16:02:17.555Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326597558_tk49ue",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T16:03:17.558Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  },
+  {
+    "id": "Kfnx1hWdTlSyo7kD4dEipkz95cI2_1794326657772_sso54l",
+    "uid": "Kfnx1hWdTlSyo7kD4dEipkz95cI2",
+    "type": "snapshot",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T16:04:17.772Z",
+    "sensors": {
+      "soil": null,
+      "humidity": null,
+      "temperature": null
+    }
+  }
+]
